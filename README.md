@@ -1,18 +1,7 @@
 # Color Picker
 
-[![](https://jitpack.io/v/NobilityDeviant/ColorPicker-Bubbly.svg)](https://jitpack.io/#NobilityDeviant/ColorPicker-Bubbly-New)
+[![](https://jitpack.io/v/NobilityDeviant/ColorPicker-Bubbly.svg)](https://jitpack.io/#NobilityDeviant/ColorPicker-Bubbly)
 <a target="_blank" href="LICENSE"><img src="http://img.shields.io/:license-apache-blue.svg" alt="License" /></a>
-<a target="_blank" href="LICENSE"><img src="http://img.shields.io/:license-apache-blue.svg" alt="License" /></a>
-
-
-Yet another open source color picker for Android. So, why should you use this color picker? It is highly customizable and easy to use. You can simply add the `ColorPreference` to your preferences and a beautiful color picker dialog will be displayed without additional code. The color picker supports alpha and allows you to set your own presets.
-
-The original ColorPickerView was written by [Daniel Nilsson](https://github.com/danielnilsson9/color-picker-view).
-
-## Screenshots
-![GIF](art/demo.gif)
-&nbsp;&nbsp;
-<img src="art/screenshot3.png" width="300" alt="Screenshot">
 
 Don't use this once. It is a personal project with customizations 
 only for my app.
