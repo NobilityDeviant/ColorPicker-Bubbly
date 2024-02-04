@@ -47,7 +47,7 @@ publishing {
 
             groupId = 'com.github.NobilityDeviant'
             artifactId = 'ColorPicker-Bubbly'
-            version = '0.9'
+            version = '1.0.1'
 
             afterEvaluate {
                 from components.release
