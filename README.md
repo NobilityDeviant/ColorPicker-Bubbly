@@ -3,7 +3,7 @@
 [![](https://jitpack.io/v/NobilityDeviant/ColorPicker-Bubbly.svg)](https://jitpack.io/#NobilityDeviant/ColorPicker-Bubbly)
 <a target="_blank" href="LICENSE"><img src="http://img.shields.io/:license-apache-blue.svg" alt="License" /></a>
 
-Don't use this once. It is a personal project with customizations 
+Don't use this one. It is a personal project with customizations 
 only for my app.
 
 ## License
