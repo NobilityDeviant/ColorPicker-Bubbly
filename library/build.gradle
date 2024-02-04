@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'maven-publish'
+
+android {
+    namespace 'com.jaredrummler.android.colorpicker.library'
+    compileSdk 34
+    resourcePrefix "cpv_"
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+    buildFeatures {
+        viewBinding = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+dependencies {
+    //noinspection GradleDependency
+    implementation 'androidx.appcompat:appcompat:1.7.0-alpha01'
+    implementation 'androidx.preference:preference-ktx:1.2.1'
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+}
+
+publishing {
+    publications {
+        release(MavenPublication) {
+
+            groupId = 'com.github.NobilityDeviant'
+            artifactId = 'ColorPicker-Bubbly'
+            version = '0.9'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
+}
