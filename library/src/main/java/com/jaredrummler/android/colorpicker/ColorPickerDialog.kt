@@ -316,6 +316,7 @@ class ColorPickerDialog private constructor(
             ColorPaletteRecyclerAdapter.OnColorSelectedListener {
             override fun onColorSelected(color: Int) {
                 if (!vm.showColorShades) {
+                    vm.color = color
                     this@ColorPickerDialog.onColorSelected(vm.color)
                     dismiss()
                     return
